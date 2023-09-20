@@ -421,7 +421,7 @@ struct TextBasedRenderer: RendererProtocol {
         }
 
         var lines: [String] = [words.joinedWords()]
-        if let body = variable.body {
+        if let body = variable.getter {
             lines.append("{")
             lines.append(renderedCodeBlocks(body))
             lines.append("}")
