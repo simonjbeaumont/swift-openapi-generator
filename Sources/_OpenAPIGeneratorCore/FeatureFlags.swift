@@ -32,6 +32,8 @@ public enum FeatureFlag: String, Hashable, Codable, CaseIterable, Sendable {
     /// A dedicated field in OpenAPI 3.0, a `null` value present in
     /// the `types` array in OpenAPI 3.1.
     case nullableSchemas
+
+    case shorthandAPIs
 }
 
 /// A set of enabled feature flags.
