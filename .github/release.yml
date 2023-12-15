@@ -13,3 +13,6 @@ changelog:
       labels:
         - semver/none
         - "*"
+  exclude:
+    labels:
+      - semver/exclude
